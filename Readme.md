@@ -1,8 +1,8 @@
 # A quick access link to toggle microphone on/off
 
 ## TO DO
-[ ] Keep mic volume when it's not 100%
-[ ] MOAR PLUGINSsss
+- [ ] Keep mic volume when it's not 100%
+- [ ] MOAR PLUGINSsss
 
 ## Installation
 
