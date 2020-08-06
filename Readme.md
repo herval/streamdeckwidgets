@@ -1,21 +1,14 @@
-
 # A quick access link to toggle microphone on/off
 
+## TO DO
+[ ] Keep mic volume when it's not 100%
+[ ] MOAR PLUGINSsss
 
+## Installation
+
+1. Run `make`
+2. Restart the Stream Deck app
+
+## License
 
 Icons by [FontAwesome](https://fontawesome.com/license)
-
-http://localhost:23654/
-
-https://developer.elgato.com/documentation/stream-deck/sdk/create-your-own-plugin/
-
-defaults write com.elgato.StreamDeck html_remote_debugging_enabled -bool YES
-
-
-
-
-Copy sources to
-
-~/Library/Application Support/com.elgato.StreamDeck/Plugins
-
-and restart Stream Deck
