@@ -1,12 +1,12 @@
-# A collection of Stream Deck plugins
+# A quick access link to toggle microphone on/off
 
 ## TO DO
-- [ ] MOAR PLUGINSsss
+- [ ] Keep mic volume when it's not 100%
 
-## Installing all plugins
+## Installation
 
 1. Checkout this repo
-2. Run `make`
+2. Run `cd micmac && make`
 3. Restart the Stream Deck app
 
 ## License

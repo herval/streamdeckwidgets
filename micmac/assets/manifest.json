@@ -1,0 +1,41 @@
+{
+  "Actions": [
+    {
+      "Icon": "icon",
+      "Name": "Mic Control",
+      "States": [
+        {
+          "Image": "micOn",
+          "TitleAlignment": "middle", 
+          "FontSize": "16"
+        },
+        {
+          "Image": "micOff",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "Switch your microphone on/off with a touch",
+      "UUID": "us.hervalicio.micmac"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "hervalicio.us",
+  "CodePath": "main",
+  "Description": "Switch your microphone on/off with a touch",
+  "Name": "Mic Control",
+  "Icon": "icon",
+  "URL": "https://hervalicio.us",
+  "Version": "0.0.1",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}

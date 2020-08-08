@@ -2,29 +2,24 @@
   "Actions": [
     {
       "Icon": "icon",
-      "Name": "Mic Control",
+      "Name": "Game of Life",
       "States": [
         {
-          "Image": "micOn",
-          "TitleAlignment": "middle", 
-          "FontSize": "16"
-        },
-        {
-          "Image": "micOff",
+          "Image": "icon",
           "TitleAlignment": "middle",
           "FontSize": "16"
         }
-      ], 
+      ],
       "SupportedInMultiActions": false,
-      "Tooltip": "Switch your microphone on/off with a touch",
-      "UUID": "us.hervalicio.sdmicmac"
+      "Tooltip": "Conway's Game of Life",
+      "UUID": "us.hervalicio.gameoflife"
     }
   ],
   "SDKVersion": 2,
   "Author": "hervalicio.us",
   "CodePath": "main",
-  "Description": "An assorted bag of plugins",
-  "Name": "hervalicio.us plugins",
+  "Description": "Conway's Game of Life",
+  "Name": "Game of Life",
   "Icon": "icon",
   "URL": "https://hervalicio.us",
   "Version": "0.0.1",

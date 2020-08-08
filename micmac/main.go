@@ -15,7 +15,7 @@ var lastMicOnVolume = 0
 
 func main() {
 	// Initialize handlers for events
-	sdk.RegisterAction("us.hervalicio.sdmicmac", handleToggleVolume)
+	sdk.RegisterAction("us.hervalicio.micmac", handleToggleVolume)
 	sdk.AddHandler(func(e *sdk.WillAppearEvent) {
 		context = e.Context
 	})
@@ -63,12 +63,6 @@ func pollMic() {
 	}
 }
 
-func toggleMic() {
-	setMicVol(
-		execAndParseVolume("mic.workflow"), // TODO pass in last volume
-	)
-}
-
 func setMicVol(vol int) {
 	sdk.Log("Setting vol to " + strconv.Itoa(vol))
 
@@ -85,7 +79,7 @@ func setMicVol(vol int) {
 }
 
 func handleToggleVolume(action, context string, payload *fastjson.Value, deviceId string) {
-	sdk.Log(context)
-
-	toggleMic()
+	setMicVol(
+		execAndParseVolume("mic.workflow"), // TODO pass in last volume
+	)
 }
